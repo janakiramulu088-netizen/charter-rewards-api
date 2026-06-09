@@ -364,37 +364,12 @@ java -jar target/rewards-api-1.0.0.jar
 FROM openjdk:17-slim
 COPY target/rewards-api-1.0.0.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
-```
 
 ---
 
-## Future Enhancements
 
-- Add persistent database layer (JPA/Spring Data)
-- Implement pagination for large customer lists
-- Add customer authentication and authorization
-- Cache frequently-accessed summaries
-- Add transaction upload endpoint (CSV/JSON)
-- Implement reward point redemption
-- Add transaction history endpoint
-- Audit logging
 
----
 
-## License
-
-MIT License – See `LICENSE` file for details.
-
----
-
-## Questions?
-
-For issues or clarifications, please refer to:
-- **OpenAPI Documentation**: http://localhost:8080/swagger-ui/index.html
-- **Test Cases**: See `src/test/java` for comprehensive examples
-- **Source Code**: All classes include detailed JavaDoc comments
-
----
 
 **Version:** 1.0.0  
 **Last Updated:** June 2024  
