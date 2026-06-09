@@ -11,14 +11,7 @@ This application implements a customer rewards program that awards points based 
 
 Example: A $120 purchase earns 2×$20 + 1×$50 = **90 points**
 
-## Table of Contents
 
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [Implementation Details](#implementation-details)
-- [Technology Stack](#technology-stack)
 
 ---
 
